@@ -3,7 +3,6 @@ package ru.taranenko.homework24.repositories;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 import ru.taranenko.homework24.entities.Product;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.ArrayList;

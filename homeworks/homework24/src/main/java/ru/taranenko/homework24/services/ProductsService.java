@@ -1,13 +1,10 @@
 package ru.taranenko.homework24.services;
 
-import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-import java.util.UUID;
 import ru.taranenko.homework24.dtos.CreateProductDto;
 import ru.taranenko.homework24.dtos.ResponseProductDto;
 import ru.taranenko.homework24.entities.Product;
