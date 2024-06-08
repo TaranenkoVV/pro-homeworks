@@ -36,3 +36,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+jar {
+	manifest {
+		attributes["Main-Class"] = "ru.taranenko.homeworks.homework24.Application"
+	}
+}
